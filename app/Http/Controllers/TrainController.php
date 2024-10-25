@@ -15,6 +15,7 @@ class TrainController extends Controller
         $trains = Train::whereDate('orario_di_partenza', $today)
             ->where('cancellato', false)
             ->get();
+        // $trains = Train::all();
 
         return view('trains.index', compact('trains'));
     }
