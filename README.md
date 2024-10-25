@@ -17,3 +17,4 @@
  - inserisci dati tramite  PhpMyAdmin
  - crea un model:  `php artisan make:model Train` (-m per creare insieme file migrate)
  - crea un controller: `php artisan make:controller TrainController`
+implementa semplice filtraggio database
