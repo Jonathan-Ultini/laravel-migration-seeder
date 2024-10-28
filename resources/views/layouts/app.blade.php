@@ -30,6 +30,13 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ route('passengers.index') }}">Passeggeri</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('train-stations.index') }}">Stazioni Treni</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('tickets.index') }}">Biglietti</a>
+          </li>
         </ul>
       </div>
     </div>
