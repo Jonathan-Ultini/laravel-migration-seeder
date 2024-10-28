@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TrainController;
+use App\Http\Controllers\PassengerController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,3 +16,5 @@ use App\Http\Controllers\TrainController;
 
 
 Route::get('/', [TrainController::class, 'index']);
+
+Route::get('/passengers', [PassengerController::class, 'index'])->name('passengers.index');
