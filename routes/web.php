@@ -15,6 +15,6 @@ use App\Http\Controllers\PassengerController;
 */
 
 
-Route::get('/', [TrainController::class, 'index']);
+Route::get('/', [TrainController::class, 'index'])->name('home');
 
 Route::get('/passengers', [PassengerController::class, 'index'])->name('passengers.index');
